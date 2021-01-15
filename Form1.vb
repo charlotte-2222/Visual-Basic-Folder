@@ -2,6 +2,10 @@
 'CPT-206
 'Chapter-3-Lab Assignment
 Public Class FrmMain
+
+    ' This is to stop the IBeam from appearing in disabled textboxes
+    Private Declare Function HideCaret Lib "user32.dll" (ByVal hWnd As IntPtr) As Boolean
+
     Private Sub BtnCalc_Click(sender As Object, e As EventArgs) Handles BtnCalc.Click
         Try
             'Declaring variables
@@ -28,21 +32,31 @@ Public Class FrmMain
             'Calculations to text boxes
         Catch
             MessageBox.Show("Error, Please try again.")
-
+            ' Error Handle
         End Try
     End Sub
 
     Private Sub BtnExt_Click(sender As Object, e As EventArgs) Handles BtnExt.Click
         Dim frm As New FrmMain
-        MessageBox.Show("Eat my ass")
+        MessageBox.Show("Thank you for using this application!")
         frm.Show()
         Me.Close()
         'Exits program
     End Sub
 
+
+    ' Below marks additional code I threw together for learning purposes
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
         For Each textbox In Controls.OfType(Of TextBox)()
             textbox.Text = ""
         Next
+    End Sub
+    Private Sub TxtTot_GotFocus(sender As Object, e As EventArgs) Handles TxtTot.GotFocus
+        HideCaret(TxtTot.Handle)
+        ' Hides The IBeam cursor for Disabled text box "TxtToT"
+    End Sub
+    Private Sub TxtTotQuant_GotFocus(sender As Object, e As EventArgs) Handles TxtTotQuant.GotFocus
+        HideCaret(TxtTotQuant.Handle)
+        ' Hides The IBeam cursor for Disabled text box "TxtToTQuant"
     End Sub
 End Class

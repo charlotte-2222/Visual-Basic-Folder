@@ -22,6 +22,7 @@ Partial Class FrmMain
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.lb_tot = New System.Windows.Forms.Label()
         Me.lbl_2_pk = New System.Windows.Forms.Label()
         Me.lbl_5_pk = New System.Windows.Forms.Label()
@@ -35,6 +36,7 @@ Partial Class FrmMain
         Me.BtnCalc = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnClear = New System.Windows.Forms.Button()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.SuspendLayout()
         '
         'lb_tot
@@ -85,21 +87,31 @@ Partial Class FrmMain
         '
         Me.TxtTotQuant.BackColor = System.Drawing.Color.PaleGoldenrod
         Me.TxtTotQuant.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TxtTotQuant.Cursor = System.Windows.Forms.Cursors.No
+        Me.TxtTotQuant.ForeColor = System.Drawing.Color.Black
+        Me.TxtTotQuant.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.TxtTotQuant.Location = New System.Drawing.Point(263, 171)
         Me.TxtTotQuant.Name = "TxtTotQuant"
         Me.TxtTotQuant.ReadOnly = True
         Me.TxtTotQuant.Size = New System.Drawing.Size(66, 20)
         Me.TxtTotQuant.TabIndex = 17
+        Me.TxtTotQuant.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.TxtTotQuant, "Quantity of Items Ordered")
         '
         'TxtTot
         '
         Me.TxtTot.BackColor = System.Drawing.SystemColors.ScrollBar
         Me.TxtTot.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TxtTot.Cursor = System.Windows.Forms.Cursors.No
+        Me.TxtTot.ForeColor = System.Drawing.Color.Black
+        Me.TxtTot.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.TxtTot.Location = New System.Drawing.Point(108, 170)
         Me.TxtTot.Name = "TxtTot"
         Me.TxtTot.ReadOnly = True
         Me.TxtTot.Size = New System.Drawing.Size(88, 20)
         Me.TxtTot.TabIndex = 16
+        Me.TxtTot.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.TxtTot, "Total Price")
         '
         'Txt2Pack
         '
@@ -108,6 +120,7 @@ Partial Class FrmMain
         Me.Txt2Pack.Name = "Txt2Pack"
         Me.Txt2Pack.Size = New System.Drawing.Size(79, 20)
         Me.Txt2Pack.TabIndex = 15
+        Me.ToolTip1.SetToolTip(Me.Txt2Pack, "Enter quantity for 2-Pack")
         '
         'Txt5Pack
         '
@@ -116,6 +129,7 @@ Partial Class FrmMain
         Me.Txt5Pack.Name = "Txt5Pack"
         Me.Txt5Pack.Size = New System.Drawing.Size(79, 20)
         Me.Txt5Pack.TabIndex = 14
+        Me.ToolTip1.SetToolTip(Me.Txt5Pack, "Enter quantity for 5-Pack" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
         'Txt12Pack
         '
@@ -126,6 +140,7 @@ Partial Class FrmMain
         Me.Txt12Pack.Name = "Txt12Pack"
         Me.Txt12Pack.Size = New System.Drawing.Size(79, 20)
         Me.Txt12Pack.TabIndex = 13
+        Me.ToolTip1.SetToolTip(Me.Txt12Pack, "Enter Quantity for 12-Pack")
         '
         'BtnExt
         '
@@ -143,6 +158,7 @@ Partial Class FrmMain
         'BtnCalc
         '
         Me.BtnCalc.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.BtnCalc.FlatAppearance.BorderSize = 2
         Me.BtnCalc.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnCalc.Location = New System.Drawing.Point(33, 216)
         Me.BtnCalc.Name = "BtnCalc"
@@ -195,7 +211,9 @@ Partial Class FrmMain
         Me.Controls.Add(Me.Txt12Pack)
         Me.Controls.Add(Me.BtnExt)
         Me.Controls.Add(Me.BtnCalc)
+        Me.DoubleBuffered = True
         Me.Name = "FrmMain"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Chopkins Toys"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -215,4 +233,5 @@ Partial Class FrmMain
     Friend WithEvents BtnCalc As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents btnClear As Button
+    Friend WithEvents ToolTip1 As ToolTip
 End Class
