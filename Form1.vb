@@ -34,8 +34,15 @@ Public Class FrmMain
 
     Private Sub BtnExt_Click(sender As Object, e As EventArgs) Handles BtnExt.Click
         Dim frm As New FrmMain
+        MessageBox.Show("Eat my ass")
         frm.Show()
         Me.Close()
         'Exits program
+    End Sub
+
+    Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+        For Each textbox In Controls.OfType(Of TextBox)()
+            textbox.Text = ""
+        Next
     End Sub
 End Class
