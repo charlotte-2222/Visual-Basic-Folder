@@ -41,6 +41,7 @@ Public Class FrmMain
         MessageBox.Show("Thank you for using this application!")
         frm.Show()
         Me.Close()
+        splashForm.Close()
         'Exits program
     End Sub
 
@@ -50,6 +51,7 @@ Public Class FrmMain
         For Each textbox In Controls.OfType(Of TextBox)()
             textbox.Text = ""
         Next
+        Txt12Pack.Focus()
     End Sub
     Private Sub TxtTot_GotFocus(sender As Object, e As EventArgs) Handles TxtTot.GotFocus
         HideCaret(TxtTot.Handle)
