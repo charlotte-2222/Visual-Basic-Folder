@@ -2,11 +2,8 @@
 'CPT-206
 'Chapter-3-Lab Assignment
 Public Class FrmMain
-
     ' This is to stop the IBeam from appearing in disabled textboxes
     Private Declare Function HideCaret Lib "user32.dll" (ByVal hWnd As IntPtr) As Boolean
-
-
     Private Sub BtnCalc_Click(sender As Object, e As EventArgs) Handles BtnCalc.Click
         Try
             'Declaring variables
@@ -36,7 +33,6 @@ Public Class FrmMain
             ' Error Handle
         End Try
     End Sub
-
     Private Sub BtnExt_Click(sender As Object, e As EventArgs) Handles BtnExt.Click
         Dim frm As New FrmMain
         MessageBox.Show("Thank you for using this application!")
@@ -45,8 +41,6 @@ Public Class FrmMain
         splashForm.Close()
         'Exits program
     End Sub
-
-
     ' Below marks additional code I threw together for learning purposes
     Private Sub BtnClear_Click(sender As Object, e As EventArgs) Handles BtnClear.Click
         For Each tx In Controls.OfType(Of TextBox)()
@@ -65,5 +59,4 @@ Public Class FrmMain
     Private Sub FrmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         time_date_two.Text = DateTime.Now.ToString("M/d/yyyy h:mm tt")
     End Sub
-
 End Class
