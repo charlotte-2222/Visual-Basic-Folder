@@ -40,7 +40,7 @@ Partial Class splashForm
         'Timer1
         '
         Me.Timer1.Enabled = True
-        Me.Timer1.Interval = 20
+        Me.Timer1.Interval = 15
         '
         'lblSplash
         '

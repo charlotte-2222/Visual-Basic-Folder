@@ -6,5 +6,9 @@
             FrmMain.Show()
         End If
         date_time.Text = DateTime.Now.ToString("M/d/yyyy h:mm tt")
+        ' Shows a splash screen depicting
+        ' An image of a popular kids/teen video game
+        ' Along with Date / Time
+        ' Name at tome
     End Sub
 End Class

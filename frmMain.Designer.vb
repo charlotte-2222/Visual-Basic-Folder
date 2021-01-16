@@ -35,7 +35,7 @@ Partial Class FrmMain
         Me.BtnExt = New System.Windows.Forms.Button()
         Me.BtnCalc = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.btnClear = New System.Windows.Forms.Button()
+        Me.BtnClear = New System.Windows.Forms.Button()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.SuspendLayout()
         '
@@ -169,6 +169,7 @@ Partial Class FrmMain
         Me.BtnExt.Size = New System.Drawing.Size(125, 43)
         Me.BtnExt.TabIndex = 6
         Me.BtnExt.Text = "&Exit"
+        Me.ToolTip1.SetToolTip(Me.BtnExt, "End program")
         Me.BtnExt.UseVisualStyleBackColor = False
         '
         'BtnCalc
@@ -183,6 +184,7 @@ Partial Class FrmMain
         Me.BtnCalc.Size = New System.Drawing.Size(125, 43)
         Me.BtnCalc.TabIndex = 4
         Me.BtnCalc.Text = "&Calculate"
+        Me.ToolTip1.SetToolTip(Me.BtnCalc, "Calculate totals")
         Me.BtnCalc.UseVisualStyleBackColor = False
         '
         'Label1
@@ -196,21 +198,22 @@ Partial Class FrmMain
         Me.Label1.TabIndex = 22
         Me.Label1.Text = "Quantity:"
         '
-        'btnClear
+        'BtnClear
         '
-        Me.btnClear.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.btnClear.BackColor = System.Drawing.Color.PaleGreen
-        Me.btnClear.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.btnClear.FlatAppearance.BorderSize = 2
-        Me.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnClear.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClear.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.btnClear.Location = New System.Drawing.Point(312, 14)
-        Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(76, 35)
-        Me.btnClear.TabIndex = 5
-        Me.btnClear.Text = "C&lear"
-        Me.btnClear.UseVisualStyleBackColor = False
+        Me.BtnClear.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BtnClear.BackColor = System.Drawing.Color.PaleGreen
+        Me.BtnClear.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.BtnClear.FlatAppearance.BorderSize = 2
+        Me.BtnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnClear.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnClear.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.BtnClear.Location = New System.Drawing.Point(312, 14)
+        Me.BtnClear.Name = "BtnClear"
+        Me.BtnClear.Size = New System.Drawing.Size(76, 35)
+        Me.BtnClear.TabIndex = 5
+        Me.BtnClear.Text = "Clea&r"
+        Me.ToolTip1.SetToolTip(Me.BtnClear, "Clear text boxes")
+        Me.BtnClear.UseVisualStyleBackColor = False
         '
         'FrmMain
         '
@@ -220,7 +223,7 @@ Partial Class FrmMain
         Me.BackColor = System.Drawing.SystemColors.ControlLight
         Me.CancelButton = Me.BtnExt
         Me.ClientSize = New System.Drawing.Size(415, 318)
-        Me.Controls.Add(Me.btnClear)
+        Me.Controls.Add(Me.BtnClear)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lb_tot)
         Me.Controls.Add(Me.lbl_2_pk)
@@ -255,6 +258,6 @@ Partial Class FrmMain
     Friend WithEvents BtnExt As Button
     Friend WithEvents BtnCalc As Button
     Friend WithEvents Label1 As Label
-    Friend WithEvents btnClear As Button
+    Friend WithEvents BtnClear As Button
     Friend WithEvents ToolTip1 As ToolTip
 End Class

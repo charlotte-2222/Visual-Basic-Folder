@@ -47,7 +47,7 @@ Public Class FrmMain
 
 
     ' Below marks additional code I threw together for learning purposes
-    Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+    Private Sub BtnClear_Click(sender As Object, e As EventArgs) Handles BtnClear.Click
         For Each textbox In Controls.OfType(Of TextBox)()
             textbox.Text = ""
         Next
