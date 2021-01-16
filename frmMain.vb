@@ -6,6 +6,7 @@ Public Class FrmMain
     ' This is to stop the IBeam from appearing in disabled textboxes
     Private Declare Function HideCaret Lib "user32.dll" (ByVal hWnd As IntPtr) As Boolean
 
+
     Private Sub BtnCalc_Click(sender As Object, e As EventArgs) Handles BtnCalc.Click
         Try
             'Declaring variables
@@ -48,8 +49,8 @@ Public Class FrmMain
 
     ' Below marks additional code I threw together for learning purposes
     Private Sub BtnClear_Click(sender As Object, e As EventArgs) Handles BtnClear.Click
-        For Each textbox In Controls.OfType(Of TextBox)()
-            textbox.Text = ""
+        For Each tx In Controls.OfType(Of TextBox)()
+            tx.Text = ""
         Next
         Txt12Pack.Focus()
     End Sub
@@ -61,4 +62,8 @@ Public Class FrmMain
         HideCaret(TxtTotQuant.Handle)
         ' Hides The IBeam cursor for Disabled text box "TxtToTQuant"
     End Sub
+    Private Sub FrmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        time_date_two.Text = DateTime.Now.ToString("M/d/yyyy h:mm tt")
+    End Sub
+
 End Class

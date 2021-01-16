@@ -37,6 +37,7 @@ Partial Class FrmMain
         Me.Label1 = New System.Windows.Forms.Label()
         Me.BtnClear = New System.Windows.Forms.Button()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.time_date_two = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'lb_tot
@@ -45,7 +46,7 @@ Partial Class FrmMain
         Me.lb_tot.AutoSize = True
         Me.lb_tot.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.lb_tot.Font = New System.Drawing.Font("Segoe UI", 9.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lb_tot.Location = New System.Drawing.Point(43, 168)
+        Me.lb_tot.Location = New System.Drawing.Point(43, 179)
         Me.lb_tot.Name = "lb_tot"
         Me.lb_tot.Size = New System.Drawing.Size(49, 17)
         Me.lb_tot.TabIndex = 21
@@ -57,7 +58,7 @@ Partial Class FrmMain
         Me.lbl_2_pk.AutoSize = True
         Me.lbl_2_pk.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.lbl_2_pk.Font = New System.Drawing.Font("Segoe UI", 9.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_2_pk.Location = New System.Drawing.Point(43, 124)
+        Me.lbl_2_pk.Location = New System.Drawing.Point(43, 135)
         Me.lbl_2_pk.Name = "lbl_2_pk"
         Me.lbl_2_pk.Size = New System.Drawing.Size(52, 17)
         Me.lbl_2_pk.TabIndex = 20
@@ -69,7 +70,7 @@ Partial Class FrmMain
         Me.lbl_5_pk.AutoSize = True
         Me.lbl_5_pk.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.lbl_5_pk.Font = New System.Drawing.Font("Segoe UI", 9.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_5_pk.Location = New System.Drawing.Point(43, 80)
+        Me.lbl_5_pk.Location = New System.Drawing.Point(43, 91)
         Me.lbl_5_pk.Name = "lbl_5_pk"
         Me.lbl_5_pk.Size = New System.Drawing.Size(52, 17)
         Me.lbl_5_pk.TabIndex = 19
@@ -81,7 +82,7 @@ Partial Class FrmMain
         Me.lbl_12_pk.AutoSize = True
         Me.lbl_12_pk.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.lbl_12_pk.Font = New System.Drawing.Font("Segoe UI", 9.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_12_pk.Location = New System.Drawing.Point(43, 33)
+        Me.lbl_12_pk.Location = New System.Drawing.Point(43, 44)
         Me.lbl_12_pk.Name = "lbl_12_pk"
         Me.lbl_12_pk.Size = New System.Drawing.Size(59, 17)
         Me.lbl_12_pk.TabIndex = 18
@@ -96,7 +97,7 @@ Partial Class FrmMain
         Me.TxtTotQuant.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtTotQuant.ForeColor = System.Drawing.Color.Black
         Me.TxtTotQuant.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.TxtTotQuant.Location = New System.Drawing.Point(300, 166)
+        Me.TxtTotQuant.Location = New System.Drawing.Point(300, 177)
         Me.TxtTotQuant.Name = "TxtTotQuant"
         Me.TxtTotQuant.ReadOnly = True
         Me.TxtTotQuant.Size = New System.Drawing.Size(77, 22)
@@ -113,7 +114,7 @@ Partial Class FrmMain
         Me.TxtTot.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtTot.ForeColor = System.Drawing.Color.Black
         Me.TxtTot.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.TxtTot.Location = New System.Drawing.Point(112, 165)
+        Me.TxtTot.Location = New System.Drawing.Point(112, 176)
         Me.TxtTot.Name = "TxtTot"
         Me.TxtTot.ReadOnly = True
         Me.TxtTot.Size = New System.Drawing.Size(102, 22)
@@ -126,7 +127,7 @@ Partial Class FrmMain
         Me.Txt2Pack.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Txt2Pack.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Txt2Pack.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Txt2Pack.Location = New System.Drawing.Point(112, 121)
+        Me.Txt2Pack.Location = New System.Drawing.Point(112, 132)
         Me.Txt2Pack.Name = "Txt2Pack"
         Me.Txt2Pack.Size = New System.Drawing.Size(92, 22)
         Me.Txt2Pack.TabIndex = 2
@@ -137,7 +138,7 @@ Partial Class FrmMain
         Me.Txt5Pack.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Txt5Pack.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Txt5Pack.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Txt5Pack.Location = New System.Drawing.Point(112, 77)
+        Me.Txt5Pack.Location = New System.Drawing.Point(112, 88)
         Me.Txt5Pack.Name = "Txt5Pack"
         Me.Txt5Pack.Size = New System.Drawing.Size(92, 22)
         Me.Txt5Pack.TabIndex = 1
@@ -150,7 +151,7 @@ Partial Class FrmMain
         Me.Txt12Pack.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Txt12Pack.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Txt12Pack.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Txt12Pack.Location = New System.Drawing.Point(112, 33)
+        Me.Txt12Pack.Location = New System.Drawing.Point(112, 44)
         Me.Txt12Pack.Name = "Txt12Pack"
         Me.Txt12Pack.Size = New System.Drawing.Size(92, 22)
         Me.Txt12Pack.TabIndex = 0
@@ -164,7 +165,7 @@ Partial Class FrmMain
         Me.BtnExt.FlatAppearance.BorderSize = 2
         Me.BtnExt.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnExt.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnExt.Location = New System.Drawing.Point(258, 225)
+        Me.BtnExt.Location = New System.Drawing.Point(258, 236)
         Me.BtnExt.Name = "BtnExt"
         Me.BtnExt.Size = New System.Drawing.Size(125, 43)
         Me.BtnExt.TabIndex = 6
@@ -179,7 +180,7 @@ Partial Class FrmMain
         Me.BtnCalc.FlatAppearance.BorderSize = 2
         Me.BtnCalc.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnCalc.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnCalc.Location = New System.Drawing.Point(38, 225)
+        Me.BtnCalc.Location = New System.Drawing.Point(38, 236)
         Me.BtnCalc.Name = "BtnCalc"
         Me.BtnCalc.Size = New System.Drawing.Size(125, 43)
         Me.BtnCalc.TabIndex = 4
@@ -192,7 +193,7 @@ Partial Class FrmMain
         Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 9.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(233, 170)
+        Me.Label1.Location = New System.Drawing.Point(233, 181)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(66, 17)
         Me.Label1.TabIndex = 22
@@ -207,13 +208,22 @@ Partial Class FrmMain
         Me.BtnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnClear.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnClear.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.BtnClear.Location = New System.Drawing.Point(312, 14)
+        Me.BtnClear.Location = New System.Drawing.Point(318, 8)
         Me.BtnClear.Name = "BtnClear"
         Me.BtnClear.Size = New System.Drawing.Size(76, 35)
         Me.BtnClear.TabIndex = 5
         Me.BtnClear.Text = "Clea&r"
         Me.ToolTip1.SetToolTip(Me.BtnClear, "Clear text boxes")
         Me.BtnClear.UseVisualStyleBackColor = False
+        '
+        'time_date_two
+        '
+        Me.time_date_two.AutoSize = True
+        Me.time_date_two.Location = New System.Drawing.Point(6, 4)
+        Me.time_date_two.Name = "time_date_two"
+        Me.time_date_two.Size = New System.Drawing.Size(89, 13)
+        Me.time_date_two.TabIndex = 23
+        Me.time_date_two.Text = "PLACE_HOLDER"
         '
         'FrmMain
         '
@@ -223,6 +233,7 @@ Partial Class FrmMain
         Me.BackColor = System.Drawing.SystemColors.ControlLight
         Me.CancelButton = Me.BtnExt
         Me.ClientSize = New System.Drawing.Size(415, 318)
+        Me.Controls.Add(Me.time_date_two)
         Me.Controls.Add(Me.BtnClear)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lb_tot)
@@ -260,4 +271,5 @@ Partial Class FrmMain
     Friend WithEvents Label1 As Label
     Friend WithEvents BtnClear As Button
     Friend WithEvents ToolTip1 As ToolTip
+    Friend WithEvents time_date_two As Label
 End Class
