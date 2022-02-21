@@ -1,0 +1,13 @@
+D:\SCC VB\bin\Debug\Zachary-Childers-CPT-206-Chap-3.exe.config
+D:\SCC VB\bin\Debug\Zachary-Childers-CPT-206-Chap-3.exe
+D:\SCC VB\bin\Debug\Zachary-Childers-CPT-206-Chap-3.pdb
+D:\SCC VB\bin\Debug\Zachary-Childers-CPT-206-Chap-3.xml
+D:\SCC VB\obj\Debug\Zachary-Childers-CPT-206-Chap-3.vbproj.AssemblyReference.cache
+D:\SCC VB\obj\Debug\Zachary_Childers_CPT_206_Chap_3.FrmMain.resources
+D:\SCC VB\obj\Debug\Zachary_Childers_CPT_206_Chap_3.Resources.resources
+D:\SCC VB\obj\Debug\Zachary_Childers_CPT_206_Chap_3.splashForm.resources
+D:\SCC VB\obj\Debug\Zachary-Childers-CPT-206-Chap-3.vbproj.GenerateResource.cache
+D:\SCC VB\obj\Debug\Zachary-Childers-CPT-206-Chap-3.vbproj.CoreCompileInputs.cache
+D:\SCC VB\obj\Debug\Zachary-Childers-CPT-206-Chap-3.exe
+D:\SCC VB\obj\Debug\Zachary-Childers-CPT-206-Chap-3.xml
+D:\SCC VB\obj\Debug\Zachary-Childers-CPT-206-Chap-3.pdb

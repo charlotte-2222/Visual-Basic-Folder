@@ -1,0 +1,14 @@
+D:\SCC VB\Charlotte-Childers-CPT-206-Lab-5\obj\Debug\Charlotte-Childers-CPT-206-Lab-5.vbproj.AssemblyReference.cache
+D:\SCC VB\Charlotte-Childers-CPT-206-Lab-5\obj\Debug\Charlotte-Childers-CPT-206-Lab-5.vbproj.SuggestedBindingRedirects.cache
+D:\SCC VB\Charlotte-Childers-CPT-206-Lab-5\obj\Debug\Charlotte_Childers_CPT_206_Lab_5.frmMain.resources
+D:\SCC VB\Charlotte-Childers-CPT-206-Lab-5\obj\Debug\Charlotte_Childers_CPT_206_Lab_5.Resources.resources
+D:\SCC VB\Charlotte-Childers-CPT-206-Lab-5\obj\Debug\Charlotte-Childers-CPT-206-Lab-5.vbproj.GenerateResource.cache
+D:\SCC VB\Charlotte-Childers-CPT-206-Lab-5\obj\Debug\Charlotte-Childers-CPT-206-Lab-5.vbproj.CoreCompileInputs.cache
+D:\SCC VB\Charlotte-Childers-CPT-206-Lab-5\bin\Debug\Charlotte-Childers-CPT-206-Lab-5.exe.config
+D:\SCC VB\Charlotte-Childers-CPT-206-Lab-5\bin\Debug\Charlotte-Childers-CPT-206-Lab-5.exe
+D:\SCC VB\Charlotte-Childers-CPT-206-Lab-5\bin\Debug\Charlotte-Childers-CPT-206-Lab-5.pdb
+D:\SCC VB\Charlotte-Childers-CPT-206-Lab-5\bin\Debug\Charlotte-Childers-CPT-206-Lab-5.xml
+D:\SCC VB\Charlotte-Childers-CPT-206-Lab-5\obj\Debug\Charlotte_Childers_CPT_206_Lab_5.SplashScreen.resources
+D:\SCC VB\Charlotte-Childers-CPT-206-Lab-5\obj\Debug\Charlotte-Childers-CPT-206-Lab-5.exe
+D:\SCC VB\Charlotte-Childers-CPT-206-Lab-5\obj\Debug\Charlotte-Childers-CPT-206-Lab-5.xml
+D:\SCC VB\Charlotte-Childers-CPT-206-Lab-5\obj\Debug\Charlotte-Childers-CPT-206-Lab-5.pdb

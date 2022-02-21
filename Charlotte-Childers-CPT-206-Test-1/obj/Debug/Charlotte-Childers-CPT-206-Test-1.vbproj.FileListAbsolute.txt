@@ -1,0 +1,14 @@
+D:\SCC VB\Charlotte-Childers-CPT-206-Test-1\bin\Debug\Charlotte-Childers-CPT-206-Test-1.exe.config
+D:\SCC VB\Charlotte-Childers-CPT-206-Test-1\bin\Debug\Charlotte-Childers-CPT-206-Test-1.exe
+D:\SCC VB\Charlotte-Childers-CPT-206-Test-1\bin\Debug\Charlotte-Childers-CPT-206-Test-1.pdb
+D:\SCC VB\Charlotte-Childers-CPT-206-Test-1\bin\Debug\Charlotte-Childers-CPT-206-Test-1.xml
+D:\SCC VB\Charlotte-Childers-CPT-206-Test-1\obj\Debug\Charlotte-Childers-CPT-206-Test-1.vbproj.AssemblyReference.cache
+D:\SCC VB\Charlotte-Childers-CPT-206-Test-1\obj\Debug\Charlotte-Childers-CPT-206-Test-1.vbproj.SuggestedBindingRedirects.cache
+D:\SCC VB\Charlotte-Childers-CPT-206-Test-1\obj\Debug\Charlotte_Childers_CPT_206_Test_1.frmMain.resources
+D:\SCC VB\Charlotte-Childers-CPT-206-Test-1\obj\Debug\Charlotte_Childers_CPT_206_Test_1.Resources.resources
+D:\SCC VB\Charlotte-Childers-CPT-206-Test-1\obj\Debug\Charlotte_Childers_CPT_206_Test_1.SplashScreen.resources
+D:\SCC VB\Charlotte-Childers-CPT-206-Test-1\obj\Debug\Charlotte-Childers-CPT-206-Test-1.vbproj.GenerateResource.cache
+D:\SCC VB\Charlotte-Childers-CPT-206-Test-1\obj\Debug\Charlotte-Childers-CPT-206-Test-1.vbproj.CoreCompileInputs.cache
+D:\SCC VB\Charlotte-Childers-CPT-206-Test-1\obj\Debug\Charlotte-Childers-CPT-206-Test-1.exe
+D:\SCC VB\Charlotte-Childers-CPT-206-Test-1\obj\Debug\Charlotte-Childers-CPT-206-Test-1.xml
+D:\SCC VB\Charlotte-Childers-CPT-206-Test-1\obj\Debug\Charlotte-Childers-CPT-206-Test-1.pdb
